@@ -7,43 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA4A244D4F2701D21755F954 /* Pods_Photogram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B60AFBE6546CF055E21AFCA6 /* Pods_Photogram.framework */; };
-		DA0687FC27EE02AB00D9DEC9 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0687FB27EE02AB00D9DEC9 /* AccountVC.swift */; };
-		DA0687FE27EE02B600D9DEC9 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0687FD27EE02B600D9DEC9 /* FeedVC.swift */; };
-		DA06880027EE02E500D9DEC9 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0687FF27EE02E500D9DEC9 /* UploadVC.swift */; };
+		D7FF74888296E3EF09CEBBD5 /* Pods_Photogram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B085F75A470D85417860442D /* Pods_Photogram.framework */; };
+		DA0687FC27EE02AB00D9DEC9 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0687FB27EE02AB00D9DEC9 /* Account.swift */; };
+		DA0687FE27EE02B600D9DEC9 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0687FD27EE02B600D9DEC9 /* Feed.swift */; };
+		DA06880027EE02E500D9DEC9 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0687FF27EE02E500D9DEC9 /* Upload.swift */; };
 		DA06880227EE030400D9DEC9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06880127EE030400D9DEC9 /* FeedCell.swift */; };
-		DA34E3F827F38789001E553C /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34E3F727F38789001E553C /* SnapVC.swift */; };
+		DA34E3F827F38789001E553C /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34E3F727F38789001E553C /* PostDetail.swift */; };
 		DA34E3FA27F388F8001E553C /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34E3F927F388F8001E553C /* UserSingleton.swift */; };
 		DA34E3FC27F38902001E553C /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34E3FB27F38902001E553C /* Snap.swift */; };
+		DA3BAF9029D72A360059AC63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3BAF8F29D72A360059AC63 /* GoogleService-Info.plist */; };
 		DA3DB45527EDF974000765A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DB45427EDF974000765A7 /* AppDelegate.swift */; };
 		DA3DB45727EDF974000765A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DB45627EDF974000765A7 /* SceneDelegate.swift */; };
-		DA3DB45927EDF974000765A7 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DB45827EDF974000765A7 /* SignInVC.swift */; };
+		DA3DB45927EDF974000765A7 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DB45827EDF974000765A7 /* Welcome.swift */; };
 		DA3DB45C27EDF974000765A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45A27EDF974000765A7 /* Main.storyboard */; };
 		DA3DB45E27EDF976000765A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45D27EDF976000765A7 /* Assets.xcassets */; };
 		DA3DB46127EDF976000765A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45F27EDF976000765A7 /* LaunchScreen.storyboard */; };
-		DAFC7CAA29D71304005529CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFC7CA929D71304005529CB /* GoogleService-Info.plist */; };
+		DAAF057529D753D8007BDE67 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF057429D753D8007BDE67 /* SignUp.swift */; };
+		DAAF057729D75C9E007BDE67 /* SignUpProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF057629D75C9E007BDE67 /* SignUpProfilePicture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B60AFBE6546CF055E21AFCA6 /* Pods_Photogram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photogram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8A502460C09490FBBC124F9 /* Pods-Photogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photogram.release.xcconfig"; path = "Target Support Files/Pods-Photogram/Pods-Photogram.release.xcconfig"; sourceTree = "<group>"; };
-		DA0687FB27EE02AB00D9DEC9 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
-		DA0687FD27EE02B600D9DEC9 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
-		DA0687FF27EE02E500D9DEC9 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		9D4F967271D82460A2F5A1C2 /* Pods-Photogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photogram.release.xcconfig"; path = "Target Support Files/Pods-Photogram/Pods-Photogram.release.xcconfig"; sourceTree = "<group>"; };
+		B085F75A470D85417860442D /* Pods_Photogram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photogram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4FB38531849F7B77B164B5 /* Pods-Photogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photogram.debug.xcconfig"; path = "Target Support Files/Pods-Photogram/Pods-Photogram.debug.xcconfig"; sourceTree = "<group>"; };
+		DA0687FB27EE02AB00D9DEC9 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		DA0687FD27EE02B600D9DEC9 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		DA0687FF27EE02E500D9DEC9 /* Upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
 		DA06880127EE030400D9DEC9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
-		DA34E3F727F38789001E553C /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		DA34E3F727F38789001E553C /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
 		DA34E3F927F388F8001E553C /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 		DA34E3FB27F38902001E553C /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		DA3BAF8F29D72A360059AC63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA3DB45127EDF974000765A7 /* Photogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3DB45427EDF974000765A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3DB45627EDF974000765A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA3DB45827EDF974000765A7 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		DA3DB45827EDF974000765A7 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		DA3DB45B27EDF974000765A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA3DB45D27EDF976000765A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3DB46027EDF976000765A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3DB46227EDF976000765A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAFC7CA929D71304005529CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		EEF0AE98A154C06AB107B38F /* Pods-Photogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photogram.debug.xcconfig"; path = "Target Support Files/Pods-Photogram/Pods-Photogram.debug.xcconfig"; sourceTree = "<group>"; };
+		DAAF057429D753D8007BDE67 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		DAAF057629D75C9E007BDE67 /* SignUpProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpProfilePicture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +55,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4A244D4F2701D21755F954 /* Pods_Photogram.framework in Frameworks */,
+				D7FF74888296E3EF09CEBBD5 /* Pods_Photogram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E5E75081AE5C640F40B86BA /* Frameworks */ = {
+		7767A2D872B6AF6B569DA8B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B60AFBE6546CF055E21AFCA6 /* Pods_Photogram.framework */,
+				B085F75A470D85417860442D /* Pods_Photogram.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -69,12 +73,14 @@
 		DA34E3F427F3848D001E553C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA3DB45827EDF974000765A7 /* SignInVC.swift */,
-				DA0687FD27EE02B600D9DEC9 /* FeedVC.swift */,
-				DA34E3F727F38789001E553C /* SnapVC.swift */,
-				DA0687FF27EE02E500D9DEC9 /* UploadVC.swift */,
-				DA0687FB27EE02AB00D9DEC9 /* AccountVC.swift */,
+				DA3DB45827EDF974000765A7 /* Welcome.swift */,
+				DA0687FD27EE02B600D9DEC9 /* Feed.swift */,
+				DA34E3F727F38789001E553C /* PostDetail.swift */,
+				DA0687FF27EE02E500D9DEC9 /* Upload.swift */,
+				DA0687FB27EE02AB00D9DEC9 /* Account.swift */,
 				DA06880127EE030400D9DEC9 /* FeedCell.swift */,
+				DAAF057429D753D8007BDE67 /* SignUp.swift */,
+				DAAF057629D75C9E007BDE67 /* SignUpProfilePicture.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,7 +109,7 @@
 				DA3DB45327EDF974000765A7 /* Photogram */,
 				DA3DB45227EDF974000765A7 /* Products */,
 				F2E8D127DF0ED0FAF8761A21 /* Pods */,
-				0E5E75081AE5C640F40B86BA /* Frameworks */,
+				7767A2D872B6AF6B569DA8B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,7 +129,7 @@
 				DA34E3F427F3848D001E553C /* Views */,
 				DA3DB45A27EDF974000765A7 /* Main.storyboard */,
 				DA3DB45D27EDF976000765A7 /* Assets.xcassets */,
-				DAFC7CA929D71304005529CB /* GoogleService-Info.plist */,
+				DA3BAF8F29D72A360059AC63 /* GoogleService-Info.plist */,
 				DA3DB45F27EDF976000765A7 /* LaunchScreen.storyboard */,
 				DA3DB46227EDF976000765A7 /* Info.plist */,
 			);
@@ -133,8 +139,8 @@
 		F2E8D127DF0ED0FAF8761A21 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EEF0AE98A154C06AB107B38F /* Pods-Photogram.debug.xcconfig */,
-				D8A502460C09490FBBC124F9 /* Pods-Photogram.release.xcconfig */,
+				CC4FB38531849F7B77B164B5 /* Pods-Photogram.debug.xcconfig */,
+				9D4F967271D82460A2F5A1C2 /* Pods-Photogram.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -146,11 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA3DB46527EDF976000765A7 /* Build configuration list for PBXNativeTarget "Photogram" */;
 			buildPhases = (
-				46BF6C64E9590662C820953B /* [CP] Check Pods Manifest.lock */,
+				DD2CE5D8628F2E8953CA6D16 /* [CP] Check Pods Manifest.lock */,
 				DA3DB44D27EDF974000765A7 /* Sources */,
 				DA3DB44E27EDF974000765A7 /* Frameworks */,
 				DA3DB44F27EDF974000765A7 /* Resources */,
-				E6EBEA47B613BBE1C4296626 /* [CP] Embed Pods Frameworks */,
+				6F6E29E21A639C8C1325FDCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA3DB46127EDF976000765A7 /* LaunchScreen.storyboard in Resources */,
-				DAFC7CAA29D71304005529CB /* GoogleService-Info.plist in Resources */,
+				DA3BAF9029D72A360059AC63 /* GoogleService-Info.plist in Resources */,
 				DA3DB45E27EDF976000765A7 /* Assets.xcassets in Resources */,
 				DA3DB45C27EDF974000765A7 /* Main.storyboard in Resources */,
 			);
@@ -209,7 +215,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		46BF6C64E9590662C820953B /* [CP] Check Pods Manifest.lock */ = {
+		6F6E29E21A639C8C1325FDCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Photogram/Pods-Photogram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Photogram/Pods-Photogram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Photogram/Pods-Photogram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2CE5D8628F2E8953CA6D16 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,23 +254,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E6EBEA47B613BBE1C4296626 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Photogram/Pods-Photogram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Photogram/Pods-Photogram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Photogram/Pods-Photogram-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,13 +263,15 @@
 			files = (
 				DA06880227EE030400D9DEC9 /* FeedCell.swift in Sources */,
 				DA34E3FC27F38902001E553C /* Snap.swift in Sources */,
-				DA3DB45927EDF974000765A7 /* SignInVC.swift in Sources */,
+				DA3DB45927EDF974000765A7 /* Welcome.swift in Sources */,
+				DAAF057529D753D8007BDE67 /* SignUp.swift in Sources */,
 				DA34E3FA27F388F8001E553C /* UserSingleton.swift in Sources */,
-				DA34E3F827F38789001E553C /* SnapVC.swift in Sources */,
-				DA06880027EE02E500D9DEC9 /* UploadVC.swift in Sources */,
+				DA34E3F827F38789001E553C /* PostDetail.swift in Sources */,
+				DA06880027EE02E500D9DEC9 /* Upload.swift in Sources */,
 				DA3DB45527EDF974000765A7 /* AppDelegate.swift in Sources */,
-				DA0687FE27EE02B600D9DEC9 /* FeedVC.swift in Sources */,
-				DA0687FC27EE02AB00D9DEC9 /* AccountVC.swift in Sources */,
+				DAAF057729D75C9E007BDE67 /* SignUpProfilePicture.swift in Sources */,
+				DA0687FE27EE02B600D9DEC9 /* Feed.swift in Sources */,
+				DA0687FC27EE02AB00D9DEC9 /* Account.swift in Sources */,
 				DA3DB45727EDF974000765A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +414,7 @@
 		};
 		DA3DB46627EDF976000765A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF0AE98A154C06AB107B38F /* Pods-Photogram.debug.xcconfig */;
+			baseConfigurationReference = CC4FB38531849F7B77B164B5 /* Pods-Photogram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -415,11 +423,13 @@
 				DEVELOPMENT_TEAM = UF8RP58SUS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Photogram/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed to taking a picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -435,7 +445,7 @@
 		};
 		DA3DB46727EDF976000765A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8A502460C09490FBBC124F9 /* Pods-Photogram.release.xcconfig */;
+			baseConfigurationReference = 9D4F967271D82460A2F5A1C2 /* Pods-Photogram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,11 +454,13 @@
 				DEVELOPMENT_TEAM = UF8RP58SUS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Photogram/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed to taking a picture";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
