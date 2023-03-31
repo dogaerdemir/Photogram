@@ -21,7 +21,7 @@
 		DA3DB45C27EDF974000765A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45A27EDF974000765A7 /* Main.storyboard */; };
 		DA3DB45E27EDF976000765A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45D27EDF976000765A7 /* Assets.xcassets */; };
 		DA3DB46127EDF976000765A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45F27EDF976000765A7 /* LaunchScreen.storyboard */; };
-		DA3DB46927EDFABC000765A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB46827EDFABC000765A7 /* GoogleService-Info.plist */; };
+		DAFC7CAA29D71304005529CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAFC7CA929D71304005529CB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 		DA3DB45D27EDF976000765A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3DB46027EDF976000765A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3DB46227EDF976000765A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA3DB46827EDFABC000765A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DAFC7CA929D71304005529CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EEF0AE98A154C06AB107B38F /* Pods-Photogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photogram.debug.xcconfig"; path = "Target Support Files/Pods-Photogram/Pods-Photogram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,9 +123,9 @@
 				DA34E3F427F3848D001E553C /* Views */,
 				DA3DB45A27EDF974000765A7 /* Main.storyboard */,
 				DA3DB45D27EDF976000765A7 /* Assets.xcassets */,
+				DAFC7CA929D71304005529CB /* GoogleService-Info.plist */,
 				DA3DB45F27EDF976000765A7 /* LaunchScreen.storyboard */,
 				DA3DB46227EDF976000765A7 /* Info.plist */,
-				DA3DB46827EDFABC000765A7 /* GoogleService-Info.plist */,
 			);
 			path = Photogram;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA3DB46127EDF976000765A7 /* LaunchScreen.storyboard in Resources */,
-				DA3DB46927EDFABC000765A7 /* GoogleService-Info.plist in Resources */,
+				DAFC7CAA29D71304005529CB /* GoogleService-Info.plist in Resources */,
 				DA3DB45E27EDF976000765A7 /* Assets.xcassets in Resources */,
 				DA3DB45C27EDF974000765A7 /* Main.storyboard in Resources */,
 			);
