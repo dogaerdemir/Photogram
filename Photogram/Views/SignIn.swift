@@ -1,43 +1,35 @@
 import UIKit
 import Firebase
 
-class Welcome: UIViewController
-{
+class SignIn: UIViewController {
+    
     @IBOutlet weak var emailText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
     
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-    @IBAction func signUpClicked(_ sender: Any)
-    {
+    @IBAction func signUpClicked(_ sender: Any) {
         self.performSegue(withIdentifier: "toSignUpVC", sender: nil)
     }
     
-    @IBAction func signInClicked(_ sender: Any)
-    {
-        if emailText.text != "" && passwordText.text != ""
-        {
+    @IBAction func signInClicked(_ sender: Any) {
+        if emailText.text != "" && passwordText.text != "" {
             Auth.auth().signIn(withEmail: emailText.text!, password: passwordText.text!) { result, error in
-                if error != nil{
+                if error != nil {
                     self.makeAlert(title: "Error", message: error?.localizedDescription ?? "Error")
                 }
-                else{
+                else {
                     self.performSegue(withIdentifier: "toFeedVC", sender: nil)
                 }
             }
         }
     }
-    
-    
 }
 
 extension UIViewController {
-    func makeAlert(title:String, message: String)
-    {
+    func makeAlert(title:String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
         let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default)
         alert.addAction(okButton)

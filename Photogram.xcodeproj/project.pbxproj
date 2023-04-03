@@ -18,12 +18,11 @@
 		DA3BAF9029D72A360059AC63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA3BAF8F29D72A360059AC63 /* GoogleService-Info.plist */; };
 		DA3DB45527EDF974000765A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DB45427EDF974000765A7 /* AppDelegate.swift */; };
 		DA3DB45727EDF974000765A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DB45627EDF974000765A7 /* SceneDelegate.swift */; };
-		DA3DB45927EDF974000765A7 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DB45827EDF974000765A7 /* Welcome.swift */; };
+		DA3DB45927EDF974000765A7 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DB45827EDF974000765A7 /* SignIn.swift */; };
 		DA3DB45C27EDF974000765A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45A27EDF974000765A7 /* Main.storyboard */; };
 		DA3DB45E27EDF976000765A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45D27EDF976000765A7 /* Assets.xcassets */; };
 		DA3DB46127EDF976000765A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3DB45F27EDF976000765A7 /* LaunchScreen.storyboard */; };
 		DAAF057529D753D8007BDE67 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF057429D753D8007BDE67 /* SignUp.swift */; };
-		DAAF057729D75C9E007BDE67 /* SignUpProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF057629D75C9E007BDE67 /* SignUpProfilePicture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,13 +40,12 @@
 		DA3DB45127EDF974000765A7 /* Photogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3DB45427EDF974000765A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3DB45627EDF974000765A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA3DB45827EDF974000765A7 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		DA3DB45827EDF974000765A7 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		DA3DB45B27EDF974000765A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA3DB45D27EDF976000765A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3DB46027EDF976000765A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3DB46227EDF976000765A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAAF057429D753D8007BDE67 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
-		DAAF057629D75C9E007BDE67 /* SignUpProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpProfilePicture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,14 +71,13 @@
 		DA34E3F427F3848D001E553C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DA3DB45827EDF974000765A7 /* Welcome.swift */,
+				DA3DB45827EDF974000765A7 /* SignIn.swift */,
 				DA0687FD27EE02B600D9DEC9 /* Feed.swift */,
 				DA34E3F727F38789001E553C /* PostDetail.swift */,
 				DA0687FF27EE02E500D9DEC9 /* Upload.swift */,
 				DA0687FB27EE02AB00D9DEC9 /* Account.swift */,
 				DA06880127EE030400D9DEC9 /* FeedCell.swift */,
 				DAAF057429D753D8007BDE67 /* SignUp.swift */,
-				DAAF057629D75C9E007BDE67 /* SignUpProfilePicture.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,13 +260,12 @@
 			files = (
 				DA06880227EE030400D9DEC9 /* FeedCell.swift in Sources */,
 				DA34E3FC27F38902001E553C /* Snap.swift in Sources */,
-				DA3DB45927EDF974000765A7 /* Welcome.swift in Sources */,
+				DA3DB45927EDF974000765A7 /* SignIn.swift in Sources */,
 				DAAF057529D753D8007BDE67 /* SignUp.swift in Sources */,
 				DA34E3FA27F388F8001E553C /* UserSingleton.swift in Sources */,
 				DA34E3F827F38789001E553C /* PostDetail.swift in Sources */,
 				DA06880027EE02E500D9DEC9 /* Upload.swift in Sources */,
 				DA3DB45527EDF974000765A7 /* AppDelegate.swift in Sources */,
-				DAAF057729D75C9E007BDE67 /* SignUpProfilePicture.swift in Sources */,
 				DA0687FE27EE02B600D9DEC9 /* Feed.swift in Sources */,
 				DA0687FC27EE02AB00D9DEC9 /* Account.swift in Sources */,
 				DA3DB45727EDF974000765A7 /* SceneDelegate.swift in Sources */,

@@ -6,6 +6,7 @@ class UserSingleton
     
     var email = ""
     var username = ""
+    var userProfilePictureUrl = ""
     
     private init()
     {

@@ -1,21 +1,19 @@
 import UIKit
 import ImageSlideshow
 
-class PostDetail: UIViewController
-{
+class PostDetail: UIViewController {
+    
     var selectedSnap : Snap?
     var inputArray = [SDWebImageSource]()
     @IBOutlet weak var timeLabel: UILabel!
     
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let snap = selectedSnap
-        {
+        if let snap = selectedSnap {
             timeLabel.text = "Hours Left: \(snap.timeDifference)"
-            for imageUrl in snap.imageUrlAray
-            {
+            
+            for imageUrl in snap.imageUrlAray {
                 inputArray.append(SDWebImageSource(urlString: imageUrl)!)
             }
         }
@@ -30,9 +28,8 @@ class PostDetail: UIViewController
         imageSlideShow.backgroundColor = UIColor.white
         imageSlideShow.contentScaleMode = UIViewContentMode.scaleAspectFit
         imageSlideShow.setImageInputs(inputArray)
+        
         self.view.addSubview(imageSlideShow)
         self.view.bringSubviewToFront(timeLabel)
-        
-        // Do any additional setup after loading the view.
     }
 }

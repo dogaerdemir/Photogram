@@ -1,25 +1,21 @@
 import UIKit
 import Firebase
 
-class Account: UIViewController
-{
+class Account: UIViewController {
+    
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var usernameLabel: UILabel!
     
-    override func viewDidLoad()
-    {
+    override func viewDidLoad() {
         super.viewDidLoad()
         
         emailLabel.text = "Email: \(Auth.auth().currentUser!.email!)"
+        
         Firestore.firestore().collection("UserInfo").whereField("email", isEqualTo: Auth.auth().currentUser!.email!).getDocuments { snapshot, error in
-            if error == nil
-            {
-                if snapshot?.isEmpty == false && snapshot != nil
-                {
-                    for document in snapshot!.documents
-                    {
-                        if let username = document.get("username") as? String
-                        {
+            if error == nil {
+                if snapshot?.isEmpty == false && snapshot != nil {
+                    for document in snapshot!.documents {
+                        if let username = document.get("username") as? String {
                             self.usernameLabel.text = "Username: \(username)"
                         }
                     }
@@ -45,12 +41,10 @@ class Account: UIViewController
         emailLabel.text = "Email: \(Auth.auth().currentUser!.email!)"
     }
     
-    @IBAction func logoutClicked(_ sender: Any)
-    {
-        do
-        {
+    @IBAction func logoutClicked(_ sender: Any) {
+        do {
             try Auth.auth().signOut()
             self.performSegue(withIdentifier: "toSignInVC", sender: nil)
-        }catch{}
+        } catch{}
     }
 }
